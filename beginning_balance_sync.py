@@ -8,12 +8,23 @@ from pathlib import Path
 LEDGER_XML_PATH = Path("data/ledger_export.xml")
 BEGINNING_BALANCES_CSV_PATH = Path("data/beginning_balances.csv")
 CUSTOMER_XML_PATH = Path("data/customer_export.xml")
+
 OUTPUT_CSV_PATH = Path("output/beginning_balance_audit.csv")
+LEDGER_UPDATE_XML_PATH = Path("output/ledger_update.xml")
+CUSTOMER_UPDATE_XML_PATH = Path("output/customer_update.xml")
+
+GENERATE_UPDATE_XML = True # Set to True/False to generate XML files for eligible records
 
 
 def to_decimal(value):
     if value is None:
         return Decimal("0")
+
+    if isinstance(value, list):
+        if len(value) == 0:
+            return Decimal("0")
+
+        value = value[0]
 
     value = str(value).strip()
 
@@ -27,6 +38,12 @@ def to_decimal(value):
     except InvalidOperation:
         print(f"WARNING: Invalid decimal value found: {value}. Defaulting to 0.")
         return Decimal("0")
+
+
+def decimal_to_number(value):
+    if value == value.to_integral_value():
+        return int(value)
+    return float(value)
 
 
 def local_name(tag):
@@ -104,9 +121,7 @@ def parse_ledger_xml(path):
             continue
 
         if not history_ledger_text:
-            records[salon_id] = {
-                "ledger": {},
-            }
+            records[salon_id] = {"ledger": {}}
             continue
 
         try:
@@ -179,7 +194,6 @@ def build_audit_rows(beginning_balances, customer_balances, ledger_records):
 
         ledger = ledger_record["ledger"] if ledger_record else {}
         first_ledger_beginning, first_ledger_month = get_first_ledger_beginning(ledger)
-
         missing_starting_balance = starting_balance - first_ledger_beginning
 
         eligible = (
@@ -245,6 +259,134 @@ def write_audit_csv(rows, path):
         writer.writerows(rows)
 
 
+def build_corrected_ledger(row, ledger_records):
+    salon_id = row["salonId"]
+    starting_balance = to_decimal(row["startingBalance"])
+    ledger_record = ledger_records.get(salon_id)
+
+    if ledger_record and ledger_record["ledger"]:
+        ledger = ledger_record["ledger"].copy()
+        first_ledger_beginning, first_ledger_month = get_first_ledger_beginning(ledger)
+
+        ledger[first_ledger_month]["b"] = starting_balance
+        return ledger
+
+    return {
+        "2026-01": {
+            "b": starting_balance,
+            "a": Decimal("0"),
+            "r": Decimal("0"),
+        }
+    }
+
+
+def ledger_to_json(ledger):
+    json_ready = {}
+
+    for month in sorted(ledger.keys()):
+        json_ready[month] = {
+            "b": decimal_to_number(ledger[month]["b"]),
+            "a": decimal_to_number(ledger[month]["a"]),
+            "r": decimal_to_number(ledger[month]["r"]),
+        }
+
+    return json.dumps(json_ready, separators=(",", ":"))
+
+
+def write_ledger_update_xml(rows, ledger_records, path):
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    eligible_rows = [row for row in rows if row["eligibleForUpdate"] == "YES"]
+
+    root = ET.Element(
+        "custom-objects",
+        {
+            "xmlns": "http://www.demandware.com/xml/impex/customobject/2006-10-31"
+        },
+    )
+
+    for row in eligible_rows:
+        salon_id = row["salonId"]
+        corrected_ledger = build_corrected_ledger(row, ledger_records)
+
+        obj = ET.SubElement(
+            root,
+            "custom-object",
+            {
+                "type-id": "SalonRewardsLedger",
+                "object-id": salon_id,
+            },
+        )
+
+        history_attr = ET.SubElement(
+            obj,
+            "object-attribute",
+            {
+                "attribute-id": "historyLedger",
+            },
+        )
+        history_attr.text = ledger_to_json(corrected_ledger)
+
+        processed_attr = ET.SubElement(
+            obj,
+            "object-attribute",
+            {
+                "attribute-id": "processed",
+            },
+        )
+        processed_attr.text = "true"
+
+    tree = ET.ElementTree(root)
+    ET.indent(tree, space="    ", level=0)
+    tree.write(path, encoding="UTF-8", xml_declaration=True)
+
+    print(f"Wrote ledger update XML: {path} ({len(eligible_rows)} records)")
+
+
+def write_customer_update_xml(rows, path):
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    eligible_rows = [row for row in rows if row["eligibleForUpdate"] == "YES"]
+
+    root = ET.Element(
+        "customer-list",
+        {
+            "xmlns": "http://www.demandware.com/xml/impex/customer/2006-10-31",
+            "list-id": "km_sr",
+        },
+    )
+
+    for row in eligible_rows:
+        salon_id = row["salonId"]
+        new_balance = to_decimal(row["newBalance"])
+
+        customer = ET.SubElement(
+            root,
+            "customer",
+            {
+                "customer-no": salon_id,
+            },
+        )
+
+        profile = ET.SubElement(customer, "profile")
+        custom_attributes = ET.SubElement(profile, "custom-attributes")
+
+        reward_points_attr = ET.SubElement(
+            custom_attributes,
+            "custom-attribute",
+            {
+                "attribute-id": "rewardPoints",
+            },
+        )
+        reward_points_attr.text = str(decimal_to_number(new_balance))
+
+    tree = ET.ElementTree(root)
+    ET.indent(tree, space="    ", level=0)
+    tree.write(path, encoding="UTF-8", xml_declaration=True)
+
+    print(f"Wrote customer update XML: {path} ({len(eligible_rows)} records)")
+
+
 def main():
     beginning_balances = load_beginning_balances(BEGINNING_BALANCES_CSV_PATH)
     customer_balances = load_customer_balances(CUSTOMER_XML_PATH)
@@ -262,10 +404,6 @@ def main():
     print(f"Beginning ∩ Ledger matches: {len(beginning_ids & ledger_ids)}")
     print(f"Customer ∩ Ledger matches: {len(customer_ids & ledger_ids)}")
 
-    print("Sample beginning IDs:", list(sorted(beginning_ids))[:10])
-    print("Sample customer IDs:", list(sorted(customer_ids))[:10])
-    print("Sample ledger IDs:", list(sorted(ledger_ids))[:10])
-
     rows = build_audit_rows(beginning_balances, customer_balances, ledger_records)
     write_audit_csv(rows, OUTPUT_CSV_PATH)
 
@@ -279,6 +417,12 @@ def main():
     print(f"Missing SR customer records: {missing_customer_count}")
     print(f"Rows with no ledger record: {no_ledger_count}")
     print(f"Audit complete. Wrote {len(rows)} rows to {OUTPUT_CSV_PATH}")
+
+    if GENERATE_UPDATE_XML:
+        write_ledger_update_xml(rows, ledger_records, LEDGER_UPDATE_XML_PATH)
+        write_customer_update_xml(rows, CUSTOMER_UPDATE_XML_PATH)
+    else:
+        print("GENERATE_UPDATE_XML is False. No update XML files were generated.")
 
 
 if __name__ == "__main__":
