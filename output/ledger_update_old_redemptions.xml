@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<custom-objects xmlns="http://www.demandware.com/xml/impex/customobject/2006-10-31">
+    <custom-object type-id="SalonRewardsLedger" object-id="US10018">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":186}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10045">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1283,"a":354,"r":0},"2026-02":{"b":0,"a":0,"r":195}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10054">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":694}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10057">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":263}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10081">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":154,"a":37,"r":0},"2026-02":{"b":0,"a":0,"r":150}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10104">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":45,"a":289,"r":0},"2026-02":{"b":0,"a":0,"r":473}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10108">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":35,"a":20,"r":0},"2026-02":{"b":0,"a":0,"r":32}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10173">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":220}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10202">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":267}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10209">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":147,"a":42,"r":0},"2026-02":{"b":0,"a":0,"r":73}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10253">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":309,"a":93,"r":0},"2026-02":{"b":0,"a":0,"r":281}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10255">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":32}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10259">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":135,"a":103,"r":0},"2026-02":{"b":0,"a":0,"r":94},"2026-04":{"b":231,"a":0,"r":322},"2026-06":{"b":44,"a":0,"r":112}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10266">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":80}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10299">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":287}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10303">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":162}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10305">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":440}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10310">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":77}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10338">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":387}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10351">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":44}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10482">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":529}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10495">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":81}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10508">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":1185}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10520">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":126}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10539">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":59}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10724">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":65}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10783">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":45,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":44}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10837">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":121}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10855">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":49}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10865">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":396}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10877">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":404,"a":224,"r":0},"2026-02":{"b":0,"a":0,"r":374},"2026-04":{"b":-150,"a":0,"r":92}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1090">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":242,"a":0,"r":0},"2026-02":{"b":242,"a":0,"r":241}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10908">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":51}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10931">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":235,"a":17,"r":0},"2026-02":{"b":0,"a":0,"r":231}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10956">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":362}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10957">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":131,"a":35,"r":0},"2026-02":{"b":0,"a":0,"r":126}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US10960">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":335,"a":95,"r":0},"2026-02":{"b":0,"a":0,"r":335},"2026-05":{"b":675,"a":0,"r":358}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US11009">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":45}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US11020">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":237,"a":20,"r":0},"2026-02":{"b":0,"a":0,"r":172},"2026-05":{"b":150,"a":0,"r":170}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1162">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":42,"a":0,"r":0},"2026-02":{"b":42,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":42}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12253">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":60,"a":20,"r":0},"2026-03":{"b":0,"a":0,"r":57}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12419">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":186,"a":0,"r":192},"2026-03":{"b":-192,"a":0,"r":0},"2026-04":{"b":-192,"a":0,"r":0},"2026-05":{"b":-6,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12429">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":12,"a":20,"r":0},"2026-02":{"b":20,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":12}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12570">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":32,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":32},"2026-03":{"b":-32,"a":0,"r":0},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12606">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":489,"a":18,"r":0},"2026-03":{"b":18,"a":0,"r":572},"2026-04":{"b":-554,"a":23,"r":0},"2026-05":{"b":-42,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12607">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":60,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":59},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1264">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":180,"a":0,"r":0},"2026-02":{"b":180,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":176}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1270">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":180,"a":0,"r":0},"2026-02":{"b":180,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":180}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12807">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":37,"r":88},"2026-03":{"b":-51,"a":0,"r":0},"2026-04":{"b":-51,"a":0,"r":0},"2026-05":{"b":-51,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US12871">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":39,"a":0,"r":0},"2026-03":{"b":0,"a":39,"r":86},"2026-04":{"b":-47,"a":101,"r":0},"2026-05":{"b":54,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13004">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":248,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":247}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1312">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":154,"a":0,"r":0},"2026-02":{"b":154,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":153}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13153">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":13,"a":42,"r":0},"2026-02":{"b":0,"a":0,"r":124}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13164">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":478,"a":17,"r":0},"2026-02":{"b":0,"a":0,"r":307}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13167">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":100,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":100}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13220">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":176,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":166}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13294">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":262,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":261}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13409">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":59,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":43}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1348">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":114,"a":0,"r":0},"2026-02":{"b":114,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":114}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13491">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":714,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":714}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13502">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":419,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":418}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13745">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":155,"a":21,"r":0},"2026-03":{"b":0,"a":0,"r":155}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13779">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":842,"a":1040,"r":0},"2026-02":{"b":0,"a":0,"r":246}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1383">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":8,"a":0,"r":0},"2026-02":{"b":8,"a":0,"r":16}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13939">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":146,"a":36,"r":0},"2026-02":{"b":0,"a":0,"r":146}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1397">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":45,"a":0,"r":0},"2026-02":{"b":23,"a":22,"r":0},"2026-03":{"b":0,"a":0,"r":22},"2026-06":{"b":23,"a":0,"r":42}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US13971">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":383,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":370}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14206">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":422,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":430}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14389">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":61,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":61}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14421">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":120,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":120}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14459">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":25,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":25}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14483">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":57,"a":26,"r":0},"2026-02":{"b":0,"a":0,"r":57}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1465">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":358,"a":0,"r":0},"2026-02":{"b":358,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":352}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14650">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":97}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14671">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":111}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14710">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":306}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14723">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":655}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14755">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":194}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14860">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":254}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14928">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":600}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US14974">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":90}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US15084">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":238}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US15359">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":77}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US15681">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":616,"a":35,"r":0},"2026-02":{"b":41,"a":23,"r":520},"2026-03":{"b":-389,"a":35,"r":90},"2026-04":{"b":150,"a":0,"r":0},"2026-05":{"b":150,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US15802">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":273}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US15955">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":87}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16137">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":7,"a":32,"r":492},"2026-03":{"b":-458,"a":245,"r":0},"2026-04":{"b":-213,"a":0,"r":273},"2026-05":{"b":185,"a":26,"r":128}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16155">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":22,"a":25,"r":0},"2026-02":{"b":0,"a":0,"r":21}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1616">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":25,"a":0,"r":0},"2026-02":{"b":3,"a":22,"r":52}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16194">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":184,"a":0,"r":176},"2026-03":{"b":-176,"a":0,"r":0},"2026-04":{"b":-176,"a":0,"r":0},"2026-05":{"b":8,"a":16,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16201">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":268,"a":88,"r":0},"2026-02":{"b":88,"a":0,"r":0},"2026-03":{"b":88,"a":0,"r":267},"2026-04":{"b":89,"a":0,"r":0},"2026-05":{"b":89,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16256">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":371,"a":17,"r":0},"2026-02":{"b":0,"a":0,"r":370}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16269">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1144,"a":122,"r":0},"2026-02":{"b":0,"a":0,"r":788}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16335">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":36,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":68},"2026-04":{"b":-68,"a":0,"r":0},"2026-05":{"b":-32,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16339">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":89,"a":16,"r":150},"2026-03":{"b":-134,"a":0,"r":0},"2026-04":{"b":-134,"a":0,"r":0},"2026-05":{"b":-45,"a":16,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1641">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":691,"a":0,"r":0},"2026-02":{"b":691,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":675}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16554">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":37,"a":0,"r":0},"2026-03":{"b":0,"a":37,"r":550},"2026-04":{"b":-513,"a":0,"r":0},"2026-05":{"b":-513,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16607">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":93,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":64}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16644">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":4,"a":41,"r":97},"2026-03":{"b":-56,"a":103,"r":22},"2026-04":{"b":25,"a":0,"r":120},"2026-05":{"b":-91,"a":37,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16722">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":211,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":208}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16848">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":191,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":191}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16849">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":272,"a":16,"r":0},"2026-03":{"b":0,"a":0,"r":230}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16869">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":146,"a":21,"r":0},"2026-03":{"b":21,"a":92,"r":268},"2026-04":{"b":-155,"a":31,"r":0},"2026-05":{"b":22,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16870">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":33,"a":0,"r":1462},"2026-03":{"b":-1462,"a":33,"r":732},"2026-04":{"b":-2161,"a":34,"r":0},"2026-05":{"b":-2103,"a":30,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US16878">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":17,"a":0,"r":202},"2026-03":{"b":-202,"a":17,"r":0},"2026-04":{"b":-185,"a":0,"r":0},"2026-05":{"b":-185,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1693">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":35,"a":0,"r":0},"2026-02":{"b":35,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":35}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1702">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":379,"a":97,"r":0},"2026-02":{"b":476,"a":0,"r":379}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17102">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":22,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":17},"2026-04":{"b":-17,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17212">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":42,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":41}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17311">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":177}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17316">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":3,"a":90,"r":74},"2026-03":{"b":92,"a":217,"r":0},"2026-04":{"b":309,"a":89,"r":161},"2026-05":{"b":240,"a":35,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17350">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":654,"a":23,"r":0},"2026-02":{"b":517,"a":0,"r":160},"2026-03":{"b":357,"a":0,"r":0},"2026-04":{"b":1011,"a":0,"r":0},"2026-05":{"b":1011,"a":17,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17493">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":18,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":168},"2026-04":{"b":-168,"a":0,"r":0},"2026-05":{"b":-150,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17554">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":107,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":98}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17713">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":325,"a":130,"r":0},"2026-03":{"b":130,"a":216,"r":647},"2026-04":{"b":-301,"a":0,"r":0},"2026-05":{"b":24,"a":21,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17717">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":81,"a":36,"r":236},"2026-03":{"b":-200,"a":36,"r":0},"2026-04":{"b":-164,"a":0,"r":0},"2026-05":{"b":-83,"a":25,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US17733">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":81,"a":33,"r":0},"2026-02":{"b":33,"a":0,"r":0},"2026-03":{"b":33,"a":0,"r":80},"2026-04":{"b":34,"a":0,"r":0},"2026-05":{"b":34,"a":16,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US18113">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":399.0768,"a":25,"r":0},"2026-02":{"b":424.0768,"a":20,"r":0},"2026-03":{"b":0,"a":0,"r":610}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US18252">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":506,"a":25,"r":0},"2026-02":{"b":25,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":505}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US1843">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1410,"a":0,"r":0},"2026-02":{"b":1387,"a":23,"r":0},"2026-03":{"b":0,"a":0,"r":1387}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US236">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":236,"a":38,"r":192},"2026-03":{"b":82,"a":29,"r":0},"2026-04":{"b":111,"a":0,"r":0},"2026-05":{"b":111,"a":298,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US243">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":19,"a":19,"r":32},"2026-03":{"b":-13,"a":21,"r":0},"2026-04":{"b":8,"a":0,"r":0},"2026-05":{"b":27,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US245">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":326,"a":27,"r":0},"2026-03":{"b":27,"a":23,"r":361},"2026-04":{"b":-311,"a":36,"r":0},"2026-05":{"b":51,"a":42,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2454">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1682,"a":103,"r":0},"2026-02":{"b":103,"a":118,"r":89},"2026-03":{"b":132,"a":132,"r":50},"2026-04":{"b":214,"a":0,"r":149},"2026-05":{"b":1855,"a":37,"r":0},"2026-06":{"b":1892,"a":0,"r":110}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2457">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1309,"a":35,"r":0},"2026-02":{"b":35,"a":95,"r":609},"2026-03":{"b":221,"a":130,"r":0},"2026-04":{"b":1660,"a":0,"r":0},"2026-05":{"b":1660,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US248">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":32,"a":0,"r":92},"2026-03":{"b":-88,"a":28,"r":0},"2026-04":{"b":-60,"a":0,"r":0},"2026-05":{"b":-60,"a":16,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2494">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":253,"a":0,"r":0},"2026-02":{"b":253,"a":0,"r":0},"2026-03":{"b":253,"a":0,"r":234},"2026-04":{"b":19,"a":0,"r":0},"2026-05":{"b":19,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US251">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1520,"a":220,"r":393},"2026-03":{"b":1127,"a":343,"r":296},"2026-04":{"b":1394,"a":0,"r":296},"2026-05":{"b":1098,"a":114,"r":299}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US253">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":320,"a":0,"r":290},"2026-03":{"b":4,"a":26,"r":0},"2026-04":{"b":30,"a":0,"r":0},"2026-05":{"b":34,"a":0,"r":0},"2026-06":{"b":34,"a":0,"r":322}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2579">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":73,"a":19,"r":0},"2026-02":{"b":92,"a":0,"r":0},"2026-03":{"b":92,"a":27,"r":64},"2026-04":{"b":55,"a":0,"r":0},"2026-05":{"b":55,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2586">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":113,"a":18,"r":0},"2026-02":{"b":45,"a":245,"r":86},"2026-03":{"b":-51,"a":28,"r":0},"2026-04":{"b":204,"a":0,"r":255},"2026-05":{"b":118,"a":39,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US264">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":2,"a":311,"r":331},"2026-03":{"b":-20,"a":1356,"r":0},"2026-04":{"b":1336,"a":0,"r":1593},"2026-05":{"b":-255,"a":2110,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US266">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":120,"r":119},"2026-03":{"b":14,"a":106,"r":0},"2026-04":{"b":120,"a":115,"r":0},"2026-05":{"b":235,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US279">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":30,"a":0,"r":514},"2026-03":{"b":-514,"a":30,"r":0},"2026-04":{"b":-484,"a":0,"r":0},"2026-05":{"b":-484,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2796">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":858,"a":245,"r":0},"2026-02":{"b":416,"a":268,"r":687},"2026-03":{"b":-3,"a":944,"r":455},"2026-04":{"b":-458,"a":0,"r":185},"2026-05":{"b":909,"a":389,"r":861},"2026-06":{"b":715,"a":0,"r":1309}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US282">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1619,"a":26,"r":0},"2026-03":{"b":26,"a":23,"r":560},"2026-04":{"b":1108,"a":0,"r":0},"2026-05":{"b":2727,"a":91,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2875">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":309,"a":213,"r":0},"2026-02":{"b":213,"a":0,"r":308},"2026-03":{"b":-95,"a":344,"r":0},"2026-04":{"b":558,"a":134,"r":0},"2026-05":{"b":692,"a":217,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US290">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":4,"a":125,"r":0},"2026-03":{"b":125,"a":323,"r":546},"2026-04":{"b":-98,"a":0,"r":0},"2026-05":{"b":-94,"a":130,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US2959">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":244,"a":0,"r":0},"2026-02":{"b":244,"a":0,"r":0},"2026-03":{"b":244,"a":0,"r":244},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US300">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":515,"a":0,"r":514},"2026-03":{"b":1,"a":0,"r":0},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3070">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":526,"a":17,"r":0},"2026-02":{"b":543,"a":0,"r":468},"2026-03":{"b":75,"a":28,"r":0},"2026-04":{"b":103,"a":27,"r":0},"2026-05":{"b":130,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3078">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":108,"a":0,"r":0},"2026-02":{"b":108,"a":0,"r":0},"2026-03":{"b":108,"a":0,"r":108},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US309">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":347,"a":0,"r":100},"2026-03":{"b":-100,"a":0,"r":0},"2026-04":{"b":-100,"a":0,"r":0},"2026-05":{"b":247,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US315">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1176,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":530},"2026-04":{"b":-530,"a":24,"r":0},"2026-05":{"b":670,"a":243,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3183">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":175,"a":0,"r":0},"2026-03":{"b":175,"a":0,"r":173},"2026-04":{"b":2,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3194">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":230,"a":0,"r":0},"2026-03":{"b":230,"a":0,"r":229},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3204">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":103,"a":0,"r":102},"2026-03":{"b":-101,"a":0,"r":0},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0},"2026-06":{"b":1,"a":0,"r":102}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3279">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":440,"a":21,"r":0},"2026-03":{"b":0,"a":0,"r":435},"2026-05":{"b":5,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3306">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":234}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US332">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":22,"a":0,"r":94},"2026-03":{"b":-94,"a":22,"r":51},"2026-04":{"b":-123,"a":21,"r":0},"2026-05":{"b":-102,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US335">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":107,"a":0,"r":0},"2026-03":{"b":0,"a":107,"r":190},"2026-04":{"b":-83,"a":35,"r":0},"2026-05":{"b":-48,"a":22,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US338">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":91,"a":43,"r":0},"2026-03":{"b":43,"a":23,"r":141},"2026-04":{"b":-75,"a":0,"r":0},"2026-05":{"b":16,"a":31,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US342">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":67,"a":0,"r":0},"2026-03":{"b":67,"a":0,"r":67},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US344">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":33,"a":0,"r":86},"2026-03":{"b":-86,"a":33,"r":0},"2026-04":{"b":-53,"a":0,"r":0},"2026-05":{"b":-53,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US345">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":30,"a":0,"r":311},"2026-03":{"b":-311,"a":30,"r":0},"2026-04":{"b":-281,"a":0,"r":0},"2026-05":{"b":-281,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US348">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":139,"a":0,"r":0},"2026-03":{"b":139,"a":0,"r":133},"2026-04":{"b":6,"a":0,"r":0},"2026-05":{"b":6,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3489">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":88}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US352">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":62,"a":19,"r":0},"2026-03":{"b":47,"a":16,"r":132},"2026-04":{"b":-69,"a":0,"r":0},"2026-05":{"b":-7,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US353">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":5,"a":102,"r":145},"2026-03":{"b":-43,"a":40,"r":0},"2026-04":{"b":-3,"a":97,"r":0},"2026-05":{"b":99,"a":23,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US355">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":3,"a":131,"r":500},"2026-03":{"b":-366,"a":259,"r":0},"2026-04":{"b":-107,"a":107,"r":0},"2026-05":{"b":0,"a":30,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US357">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":97,"a":22,"r":184},"2026-03":{"b":-162,"a":0,"r":0},"2026-04":{"b":-162,"a":27,"r":0},"2026-05":{"b":-38,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3570">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":29,"a":0,"r":0},"2026-02":{"b":29,"a":0,"r":0},"2026-03":{"b":29,"a":0,"r":27},"2026-04":{"b":50,"a":0,"r":0},"2026-05":{"b":154,"a":0,"r":104}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3571">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":27,"a":0,"r":0},"2026-02":{"b":9,"a":18,"r":112},"2026-03":{"b":-85,"a":0,"r":0},"2026-04":{"b":-85,"a":0,"r":0},"2026-05":{"b":-85,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3588">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":140,"a":245,"r":0},"2026-02":{"b":385,"a":302,"r":1022},"2026-03":{"b":-335,"a":283,"r":556},"2026-04":{"b":-891,"a":908,"r":350},"2026-05":{"b":-50,"a":921,"r":526}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3589">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":70,"a":403,"r":0},"2026-02":{"b":473,"a":272,"r":741},"2026-03":{"b":4,"a":1032,"r":701},"2026-04":{"b":335,"a":376,"r":1024},"2026-05":{"b":-313,"a":215,"r":356}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3632">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":634,"a":0,"r":0},"2026-02":{"b":634,"a":0,"r":0},"2026-03":{"b":634,"a":0,"r":633},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3645">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":6,"a":126,"r":0},"2026-02":{"b":132,"a":32,"r":102},"2026-03":{"b":62,"a":22,"r":0},"2026-04":{"b":84,"a":0,"r":165},"2026-05":{"b":-81,"a":21,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US365">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1318,"a":0,"r":0},"2026-03":{"b":1318,"a":0,"r":1317},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3694">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":207,"a":0,"r":0},"2026-02":{"b":207,"a":0,"r":0},"2026-03":{"b":207,"a":0,"r":174},"2026-04":{"b":33,"a":0,"r":0},"2026-05":{"b":33,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3708">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":4,"a":0,"r":0},"2026-02":{"b":4,"a":0,"r":16},"2026-03":{"b":-12,"a":0,"r":0},"2026-04":{"b":-12,"a":0,"r":0},"2026-05":{"b":-12,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3724">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":526,"a":0,"r":0},"2026-02":{"b":526,"a":0,"r":0},"2026-03":{"b":526,"a":0,"r":526},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US373">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":117,"a":24,"r":149},"2026-03":{"b":-125,"a":0,"r":0},"2026-04":{"b":-76,"a":33,"r":0},"2026-05":{"b":74,"a":22,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US382">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":3,"a":206,"r":161},"2026-03":{"b":48,"a":212,"r":0},"2026-04":{"b":260,"a":0,"r":0},"2026-05":{"b":260,"a":32,"r":0},"2026-06":{"b":292,"a":0,"r":450}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3848">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":502,"a":0,"r":0},"2026-02":{"b":502,"a":0,"r":501},"2026-03":{"b":1,"a":0,"r":0},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US3983">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":98,"a":0,"r":0},"2026-02":{"b":98,"a":0,"r":0},"2026-03":{"b":98,"a":0,"r":86},"2026-04":{"b":12,"a":0,"r":0},"2026-05":{"b":12,"a":19,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US399">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":29,"a":0,"r":635},"2026-03":{"b":-635,"a":29,"r":0},"2026-04":{"b":-606,"a":0,"r":0},"2026-05":{"b":-606,"a":27,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US400">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":143,"a":223,"r":527},"2026-03":{"b":-304,"a":340,"r":0},"2026-04":{"b":36,"a":0,"r":120},"2026-05":{"b":59,"a":374,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4001">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":652,"a":0,"r":0},"2026-02":{"b":652,"a":0,"r":0},"2026-03":{"b":652,"a":0,"r":612},"2026-04":{"b":40,"a":0,"r":0},"2026-05":{"b":40,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4019">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":467,"a":0,"r":0},"2026-02":{"b":467,"a":0,"r":467},"2026-03":{"b":0,"a":0,"r":0},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4043">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":539,"a":0,"r":0},"2026-02":{"b":539,"a":0,"r":0},"2026-03":{"b":539,"a":0,"r":539},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US406">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":208,"a":91,"r":234},"2026-03":{"b":-32,"a":93,"r":185},"2026-04":{"b":-124,"a":42,"r":85},"2026-05":{"b":41,"a":987,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4124">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":36,"a":0,"r":0},"2026-02":{"b":0,"a":36,"r":528},"2026-03":{"b":-492,"a":16,"r":0},"2026-04":{"b":-476,"a":28,"r":0},"2026-05":{"b":-448,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US413">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":5,"a":0,"r":45},"2026-03":{"b":-40,"a":0,"r":0},"2026-04":{"b":-40,"a":0,"r":0},"2026-05":{"b":-40,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US414">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":127,"a":35,"r":89},"2026-03":{"b":19,"a":125,"r":0},"2026-04":{"b":144,"a":0,"r":0},"2026-05":{"b":271,"a":39,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4177">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1314,"a":97,"r":0},"2026-02":{"b":97,"a":15,"r":1212},"2026-03":{"b":-1100,"a":27,"r":0},"2026-04":{"b":241,"a":102,"r":0},"2026-05":{"b":343,"a":37,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4193">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1014,"a":0,"r":0},"2026-02":{"b":1014,"a":0,"r":0},"2026-03":{"b":1014,"a":0,"r":1000},"2026-04":{"b":14,"a":0,"r":0},"2026-05":{"b":14,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4225">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":217,"a":91,"r":0},"2026-02":{"b":308,"a":26,"r":0},"2026-03":{"b":334,"a":0,"r":216},"2026-04":{"b":118,"a":0,"r":0},"2026-05":{"b":118,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US424">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":8,"a":34,"r":0},"2026-03":{"b":34,"a":23,"r":754},"2026-04":{"b":-697,"a":0,"r":0},"2026-05":{"b":-689,"a":33,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4240">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":270,"a":0,"r":0},"2026-02":{"b":270,"a":0,"r":0},"2026-03":{"b":270,"a":0,"r":266},"2026-04":{"b":4,"a":0,"r":0},"2026-05":{"b":4,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4328">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":196,"a":0,"r":0},"2026-02":{"b":196,"a":0,"r":0},"2026-03":{"b":196,"a":16,"r":194},"2026-04":{"b":18,"a":0,"r":0},"2026-05":{"b":18,"a":29,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4379">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":7,"a":0,"r":0},"2026-02":{"b":7,"a":0,"r":0},"2026-03":{"b":7,"a":0,"r":7},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US438">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":42,"a":32,"r":160},"2026-03":{"b":-128,"a":31,"r":100},"2026-04":{"b":-197,"a":0,"r":0},"2026-05":{"b":-155,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4384">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":50,"a":0,"r":0},"2026-02":{"b":50,"a":0,"r":0},"2026-03":{"b":50,"a":0,"r":48},"2026-04":{"b":2,"a":0,"r":0},"2026-05":{"b":2,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US439">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":13,"a":0,"r":315},"2026-03":{"b":-302,"a":0,"r":0},"2026-04":{"b":-302,"a":0,"r":0},"2026-05":{"b":-302,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4394">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":808,"a":0,"r":0},"2026-02":{"b":808,"a":0,"r":0},"2026-03":{"b":808,"a":0,"r":806},"2026-04":{"b":2,"a":0,"r":0},"2026-05":{"b":2,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4416">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1259,"a":0,"r":0},"2026-02":{"b":1259,"a":0,"r":1247},"2026-03":{"b":12,"a":0,"r":0},"2026-04":{"b":12,"a":0,"r":0},"2026-05":{"b":12,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US443">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":121,"a":16,"r":112},"2026-03":{"b":25,"a":0,"r":0},"2026-04":{"b":25,"a":0,"r":0},"2026-05":{"b":25,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4460">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":44,"a":24,"r":0},"2026-02":{"b":24,"a":15,"r":42},"2026-03":{"b":-3,"a":0,"r":0},"2026-04":{"b":41,"a":0,"r":0},"2026-05":{"b":41,"a":27,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US450">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1,"a":23,"r":0},"2026-03":{"b":23,"a":26,"r":80},"2026-04":{"b":-31,"a":0,"r":0},"2026-05":{"b":-30,"a":206,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4527">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":16,"a":0,"r":0},"2026-02":{"b":16,"a":0,"r":16},"2026-03":{"b":0,"a":0,"r":0},"2026-04":{"b":0,"a":0,"r":0},"2026-05":{"b":0,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4537">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":14219,"a":1404,"r":0},"2026-02":{"b":1404,"a":2396,"r":1350},"2026-03":{"b":13155,"a":2519,"r":0},"2026-04":{"b":15319,"a":0,"r":2164},"2026-05":{"b":31769,"a":2197,"r":1452}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4590">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":4,"a":0,"r":0},"2026-02":{"b":4,"a":0,"r":90},"2026-03":{"b":-86,"a":0,"r":0},"2026-04":{"b":-86,"a":0,"r":0},"2026-05":{"b":-86,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4596">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":59,"a":0,"r":0},"2026-02":{"b":38,"a":21,"r":0},"2026-03":{"b":59,"a":0,"r":36},"2026-04":{"b":23,"a":0,"r":0},"2026-05":{"b":23,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US461">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":799,"a":112,"r":0},"2026-03":{"b":112,"a":114,"r":976},"2026-04":{"b":-750,"a":0,"r":0},"2026-05":{"b":49,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4615">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":191,"a":0,"r":0},"2026-02":{"b":191,"a":0,"r":0},"2026-03":{"b":191,"a":0,"r":186},"2026-04":{"b":5,"a":0,"r":0},"2026-05":{"b":5,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4652">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":31,"a":0,"r":0},"2026-02":{"b":31,"a":0,"r":0},"2026-03":{"b":31,"a":0,"r":28},"2026-04":{"b":3,"a":0,"r":0},"2026-05":{"b":3,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4715">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":89,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":88},"2026-03":{"b":-88,"a":0,"r":0},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4866">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":50,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":49}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US491">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":316,"a":22,"r":320},"2026-03":{"b":-298,"a":20,"r":0},"2026-04":{"b":-278,"a":0,"r":0},"2026-05":{"b":38,"a":22,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US4978">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":89,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":87}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5014">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":18,"a":243,"r":0},"2026-02":{"b":0,"a":0,"r":87}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US505">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":17,"a":0,"r":539},"2026-03":{"b":-522,"a":0,"r":0},"2026-04":{"b":-522,"a":22,"r":0},"2026-05":{"b":-500,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5057">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":151,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":427}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5150">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":24,"a":25,"r":0},"2026-02":{"b":0,"a":0,"r":24}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5207">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":275,"a":25,"r":0},"2026-02":{"b":0,"a":0,"r":272}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5216">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":13165,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":13163}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5298">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1547,"a":42,"r":0},"2026-02":{"b":0,"a":0,"r":307}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5351">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":3876,"a":295,"r":0},"2026-03":{"b":0,"a":0,"r":3876}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5352">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":2,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":2}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5415">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":109,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":108}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5494">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":642,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":402},"2026-03":{"b":-402,"a":0,"r":239}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US552">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":2089,"a":118,"r":322},"2026-03":{"b":-204,"a":41,"r":204},"2026-04":{"b":-367,"a":0,"r":0},"2026-05":{"b":1722,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5531">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":64,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":58}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5619">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":4,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":490}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5789">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":856,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":418}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US5874">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":268,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":268}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US588">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":758,"a":274,"r":226},"2026-03":{"b":48,"a":1325,"r":384},"2026-04":{"b":989,"a":966,"r":0},"2026-05":{"b":2713,"a":267,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US594">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":36,"a":0,"r":0},"2026-03":{"b":0,"a":36,"r":144},"2026-04":{"b":-108,"a":24,"r":0},"2026-05":{"b":-84,"a":16,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6016">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":57,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":40}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US603">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":119,"a":0,"r":100},"2026-03":{"b":-100,"a":0,"r":0},"2026-04":{"b":-100,"a":0,"r":0},"2026-05":{"b":138,"a":0,"r":233}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6116">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":314,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":314}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US618">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":184,"a":0,"r":160},"2026-03":{"b":3,"a":21,"r":0},"2026-04":{"b":24,"a":0,"r":0},"2026-05":{"b":24,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6201">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":384,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":384}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US626">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":858,"a":226,"r":432},"2026-03":{"b":652,"a":230,"r":384},"2026-04":{"b":498,"a":329,"r":0},"2026-05":{"b":827,"a":952,"r":1326}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US628">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":725,"a":0,"r":0},"2026-03":{"b":725,"a":0,"r":724},"2026-04":{"b":1,"a":0,"r":0},"2026-05":{"b":1,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6283">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":456,"a":20,"r":0},"2026-03":{"b":0,"a":0,"r":456}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US630">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":731,"a":18,"r":510},"2026-03":{"b":-492,"a":18,"r":241},"2026-04":{"b":-715,"a":28,"r":0},"2026-05":{"b":44,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US634">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":5,"a":0,"r":102},"2026-03":{"b":-97,"a":0,"r":0},"2026-04":{"b":-97,"a":0,"r":0},"2026-05":{"b":-97,"a":31,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6412">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":282,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":280}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6430">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":138,"a":35,"r":0},"2026-02":{"b":0,"a":0,"r":138}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US646">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":424,"a":981,"r":1292},"2026-03":{"b":-311,"a":1391,"r":0},"2026-04":{"b":1080,"a":0,"r":367},"2026-05":{"b":229,"a":944,"r":234},"2026-06":{"b":329,"a":0,"r":754}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6502">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":234,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":234}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US653">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":259,"a":1134,"r":818},"2026-03":{"b":317,"a":2227,"r":359},"2026-04":{"b":2185,"a":0,"r":570},"2026-05":{"b":1064,"a":385,"r":171},"2026-06":{"b":1278,"a":0,"r":300}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US654">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":25,"a":0,"r":0},"2026-03":{"b":0,"a":25,"r":171},"2026-04":{"b":-146,"a":0,"r":0},"2026-05":{"b":-146,"a":17,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US658">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1354,"a":23,"r":0},"2026-03":{"b":23,"a":38,"r":1523},"2026-04":{"b":-1462,"a":0,"r":0},"2026-05":{"b":-108,"a":33,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6660">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":300,"a":338,"r":0},"2026-02":{"b":0,"a":0,"r":260},"2026-03":{"b":490,"a":0,"r":737},"2026-05":{"b":1795,"a":0,"r":1371},"2026-06":{"b":424,"a":0,"r":234}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US667">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":203,"a":24,"r":187},"2026-03":{"b":-163,"a":17,"r":0},"2026-04":{"b":-146,"a":0,"r":0},"2026-05":{"b":57,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6689">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":2916,"a":41,"r":0},"2026-03":{"b":0,"a":0,"r":2914}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US670">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":5,"a":92,"r":0},"2026-03":{"b":92,"a":37,"r":133},"2026-04":{"b":-4,"a":0,"r":0},"2026-05":{"b":1,"a":95,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US671">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":80,"a":256,"r":569},"2026-03":{"b":-451,"a":293,"r":0},"2026-04":{"b":-233,"a":335,"r":218},"2026-05":{"b":177,"a":34,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US674">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":106,"r":170},"2026-03":{"b":-161,"a":42,"r":0},"2026-04":{"b":-64,"a":103,"r":97},"2026-05":{"b":-16,"a":15,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6777">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":5922,"a":233,"r":0},"2026-02":{"b":0,"a":0,"r":78},"2026-03":{"b":-78,"a":0,"r":5842}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6778">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":98,"a":30,"r":0},"2026-02":{"b":0,"a":0,"r":81},"2026-03":{"b":-81,"a":0,"r":14}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6779">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":4433,"a":111,"r":0},"2026-03":{"b":0,"a":0,"r":4431}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US682">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":330,"a":239,"r":638},"2026-03":{"b":-399,"a":233,"r":0},"2026-04":{"b":-166,"a":112,"r":0},"2026-05":{"b":276,"a":131,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6846">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":575,"a":28,"r":0},"2026-02":{"b":0,"a":0,"r":575}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US685">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":19125,"a":232,"r":845},"2026-03":{"b":18512,"a":121,"r":0},"2026-04":{"b":17926,"a":225,"r":0},"2026-05":{"b":18633,"a":225,"r":1187},"2026-06":{"b":17896,"a":0,"r":430}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US6894">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":603,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":600}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US692">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":5,"a":368,"r":383},"2026-03":{"b":-15,"a":1091,"r":283},"2026-04":{"b":793,"a":371,"r":220},"2026-05":{"b":497,"a":227,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US693">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":1854,"a":257,"r":208},"2026-03":{"b":49,"a":132,"r":423},"2026-04":{"b":-242,"a":0,"r":0},"2026-05":{"b":1612,"a":30,"r":40}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7025">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":93,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":129}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US708">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":67,"a":16,"r":0},"2026-03":{"b":83,"a":16,"r":64},"2026-04":{"b":35,"a":40,"r":0},"2026-05":{"b":75,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7089">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":236,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":235}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US709">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":78,"a":16,"r":165},"2026-03":{"b":-149,"a":0,"r":0},"2026-04":{"b":-149,"a":0,"r":0},"2026-05":{"b":-71,"a":0,"r":0}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7140">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":223,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":110}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7245">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":131,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":129}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7264">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":4475,"a":37,"r":0},"2026-02":{"b":0,"a":0,"r":763}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7298">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":59,"a":93,"r":0},"2026-02":{"b":0,"a":0,"r":49}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7346">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":38,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":37}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7446">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":77,"a":29,"r":0},"2026-02":{"b":0,"a":0,"r":75}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7491">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":442,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":265}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7635">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":825,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":825}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US7847">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":2825,"a":43,"r":0},"2026-02":{"b":0,"a":0,"r":78}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8219">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":662,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":447}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8237">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":102,"a":35,"r":0},"2026-02":{"b":0,"a":0,"r":102}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8246">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":73,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":71}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8434">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":251,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":248}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8620">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":88,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":85}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8761">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":508,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":505}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8786">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":141,"a":19,"r":0},"2026-02":{"b":0,"a":0,"r":139}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8854">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":519,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":502}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8931">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":87,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":86}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8932">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":675,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":675}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US8945">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":71,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":71}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9032">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":429,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":429}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9046">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":596,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":594}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9161">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":108,"a":28,"r":0},"2026-02":{"b":0,"a":0,"r":106}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US919">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":206,"a":0,"r":0},"2026-02":{"b":206,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":206}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9220">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1879,"a":270,"r":0},"2026-03":{"b":0,"a":0,"r":1879}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9346">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":14,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":14}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9446">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":73,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":71}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9477">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":40,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":34}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9701">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":167,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":167}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9787">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":95,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":95}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9797">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":31,"a":22,"r":0},"2026-02":{"b":0,"a":0,"r":28}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9840">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":26,"a":0,"r":0},"2026-02":{"b":0,"a":0,"r":26}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9848">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":23,"a":0,"r":0},"2026-03":{"b":0,"a":0,"r":23}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9949">
+        <object-attribute attribute-id="historyLedger">{"2026-03":{"b":0,"a":0,"r":666}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9952">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":1268,"a":941,"r":0},"2026-02":{"b":0,"a":0,"r":1257}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US998">
+        <object-attribute attribute-id="historyLedger">{"2026-01":{"b":5,"a":0,"r":0},"2026-02":{"b":5,"a":0,"r":64}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+    <custom-object type-id="SalonRewardsLedger" object-id="US9998">
+        <object-attribute attribute-id="historyLedger">{"2026-02":{"b":0,"a":0,"r":30}}</object-attribute>
+        <object-attribute attribute-id="processed">true</object-attribute>
+    </custom-object>
+</custom-objects>

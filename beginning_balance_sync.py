@@ -13,7 +13,7 @@ OUTPUT_CSV_PATH = Path("output/beginning_balance_audit.csv")
 LEDGER_UPDATE_XML_PATH = Path("output/ledger_update.xml")
 CUSTOMER_UPDATE_XML_PATH = Path("output/customer_update.xml")
 
-GENERATE_UPDATE_XML = True # Set to True/False to generate XML files for eligible records
+GENERATE_UPDATE_XML = False # Set to True/False to generate XML files for eligible records
 
 
 def to_decimal(value):
