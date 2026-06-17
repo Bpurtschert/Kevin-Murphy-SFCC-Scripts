@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<<<<<<< HEAD
 <custom-objects xmlns="http://www.demandware.com/xml/impex/customobject/2006-10-31">
     <custom-object type-id="SalonRewardsLedger" object-id="US10783">
         <object-attribute attribute-id="historyLedger">{"2026-01":{"b":45,"a":0,"r":0}}</object-attribute>
@@ -6473,3 +6474,6 @@
         <object-attribute attribute-id="processed">true</object-attribute>
     </custom-object>
 </custom-objects>
+=======
+<custom-objects xmlns="http://www.demandware.com/xml/impex/customobject/2006-10-31" />
+>>>>>>> 8928a9f3880ac7ed58aa92b4c3044ceb45911dea

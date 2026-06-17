@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<<<<<<< HEAD
 <customer-list xmlns="http://www.demandware.com/xml/impex/customer/2006-10-31" list-id="km_sr">
     <customer customer-no="US10783">
         <profile>
@@ -11327,3 +11328,6 @@
         </profile>
     </customer>
 </customer-list>
+=======
+<customer-list xmlns="http://www.demandware.com/xml/impex/customer/2006-10-31" list-id="km_sr" />
+>>>>>>> 8928a9f3880ac7ed58aa92b4c3044ceb45911dea

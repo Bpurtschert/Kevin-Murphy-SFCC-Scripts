@@ -13,7 +13,11 @@ OUTPUT_CSV_PATH = Path("output/beginning_balance_audit.csv")
 LEDGER_UPDATE_XML_PATH = Path("output/ledger_update.xml")
 CUSTOMER_UPDATE_XML_PATH = Path("output/customer_update.xml")
 
+<<<<<<< HEAD
 GENERATE_UPDATE_XML = False # Set to True/False to generate XML files for eligible records
+=======
+GENERATE_UPDATE_XML = True
+>>>>>>> 8928a9f3880ac7ed58aa92b4c3044ceb45911dea
 
 
 def to_decimal(value):
@@ -23,7 +27,6 @@ def to_decimal(value):
     if isinstance(value, list):
         if len(value) == 0:
             return Decimal("0")
-
         value = value[0]
 
     value = str(value).strip()
@@ -121,7 +124,10 @@ def parse_ledger_xml(path):
             continue
 
         if not history_ledger_text:
-            records[salon_id] = {"ledger": {}}
+            records[salon_id] = {
+                "ledger": {},
+                "has_history_ledger_attribute": False,
+            }
             continue
 
         try:
@@ -132,6 +138,7 @@ def parse_ledger_xml(path):
 
         records[salon_id] = {
             "ledger": normalize_ledger(raw_ledger, salon_id),
+            "has_history_ledger_attribute": True,
         }
 
     return records
@@ -158,6 +165,19 @@ def normalize_ledger(raw_ledger, salon_id):
     return normalized
 
 
+def get_ledger_status(ledger_record):
+    if ledger_record is None:
+        return "NO_LEDGER_RECORD"
+
+    if ledger_record["ledger"]:
+        return "LEDGER_HAS_HISTORY"
+
+    if ledger_record.get("has_history_ledger_attribute"):
+        return "LEDGER_RECORD_EMPTY_HISTORY"
+
+    return "LEDGER_RECORD_NO_HISTORY_ATTRIBUTE"
+
+
 def get_first_ledger_beginning(ledger):
     if not ledger:
         return Decimal("0"), ""
@@ -175,6 +195,7 @@ def build_audit_rows(beginning_balances, customer_balances, ledger_records):
     for salon_id, starting_balance in beginning_balances.items():
         current_balance = customer_balances.get(salon_id)
         ledger_record = ledger_records.get(salon_id)
+        ledger_status = get_ledger_status(ledger_record)
 
         if current_balance is None:
             rows.append({
@@ -182,54 +203,98 @@ def build_audit_rows(beginning_balances, customer_balances, ledger_records):
                 "startingBalance": starting_balance,
                 "currentBalance": "",
                 "ledgerExists": "YES" if ledger_record else "NO",
+                "ledgerHasHistory": "NO",
+                "ledgerStatus": ledger_status,
                 "firstLedgerMonth": "",
                 "firstLedgerBeginning": "",
                 "missingStartingBalance": "",
                 "deltaApplied": Decimal("0"),
                 "newBalance": "",
-                "eligibleForUpdate": "NO",
+                "eligibleForCustomerUpdate": "NO",
+                "eligibleForLedgerUpdate": "NO",
+                "updateAction": "SKIP",
                 "reasonSkipped": "Missing SR customer record",
             })
             continue
 
         ledger = ledger_record["ledger"] if ledger_record else {}
+        ledger_has_history = ledger_status == "LEDGER_HAS_HISTORY"
+
         first_ledger_beginning, first_ledger_month = get_first_ledger_beginning(ledger)
         missing_starting_balance = starting_balance - first_ledger_beginning
 
-        eligible = (
+        eligible_base = (
             starting_balance > 0
-            and first_ledger_beginning == 0
-            and missing_starting_balance > 0
             and current_balance >= 0
         )
 
-        delta_applied = missing_starting_balance if eligible else Decimal("0")
-        new_balance = current_balance + delta_applied
+        update_action = "SKIP"
+
+        if eligible_base:
+            if ledger_has_history:
+                if first_ledger_beginning == 0 and missing_starting_balance > 0:
+                    delta_applied = missing_starting_balance
+                    new_balance = current_balance + delta_applied
+                    update_action = "ADD_MISSING_BEGINNING_BALANCE"
+                else:
+                    delta_applied = Decimal("0")
+                    new_balance = current_balance
+                    update_action = "SKIP"
+            else:
+                if current_balance != starting_balance:
+                    delta_applied = starting_balance - current_balance
+                    new_balance = starting_balance
+                    update_action = "REPLACE_WITH_STARTING_BALANCE"
+                else:
+                    delta_applied = Decimal("0")
+                    new_balance = current_balance
+                    update_action = "SKIP_ALREADY_MATCHES_STARTING_BALANCE"
+        else:
+            delta_applied = Decimal("0")
+            new_balance = current_balance
+
+        eligible_for_customer_update = update_action in (
+            "ADD_MISSING_BEGINNING_BALANCE",
+            "REPLACE_WITH_STARTING_BALANCE",
+        )
+
+        eligible_for_ledger_update = (
+            update_action == "ADD_MISSING_BEGINNING_BALANCE"
+            and ledger_has_history
+        )
 
         reason_skipped = ""
-        if not eligible:
+        if not eligible_for_customer_update:
             if starting_balance <= 0:
                 reason_skipped = "Starting balance is 0 or negative"
-            elif first_ledger_beginning != 0:
-                reason_skipped = "First ledger beginning is not 0"
-            elif missing_starting_balance <= 0:
-                reason_skipped = "Missing starting balance is not positive"
             elif current_balance < 0:
                 reason_skipped = "Current balance is negative"
+            elif not ledger_has_history and current_balance == starting_balance:
+                reason_skipped = "No ledger history and customer balance already matches starting balance"
+            elif ledger_has_history and first_ledger_beginning != 0:
+                reason_skipped = "First ledger beginning is not 0"
+            elif ledger_has_history and missing_starting_balance <= 0:
+                reason_skipped = "Missing starting balance is not positive"
             else:
                 reason_skipped = "Not eligible based on guardrails"
+        elif not ledger_has_history:
+            reason_skipped = "Customer update only - no existing ledger history"
 
         rows.append({
             "salonId": salon_id,
             "startingBalance": starting_balance,
             "currentBalance": current_balance,
             "ledgerExists": "YES" if ledger_record else "NO",
+            "ledgerHasHistory": "YES" if ledger_has_history else "NO",
+            "ledgerStatus": ledger_status,
             "firstLedgerMonth": first_ledger_month,
             "firstLedgerBeginning": first_ledger_beginning,
             "missingStartingBalance": missing_starting_balance,
             "deltaApplied": delta_applied,
             "newBalance": new_balance,
-            "eligibleForUpdate": "YES" if eligible else "NO",
+            "eligibleForCustomerUpdate": "YES" if eligible_for_customer_update else "NO",
+            "eligibleForLedgerUpdate": "YES" if eligible_for_ledger_update else "NO",
+            "updateAction": update_action,
             "reasonSkipped": reason_skipped,
         })
 
@@ -244,12 +309,16 @@ def write_audit_csv(rows, path):
         "startingBalance",
         "currentBalance",
         "ledgerExists",
+        "ledgerHasHistory",
+        "ledgerStatus",
         "firstLedgerMonth",
         "firstLedgerBeginning",
         "missingStartingBalance",
         "deltaApplied",
         "newBalance",
-        "eligibleForUpdate",
+        "eligibleForCustomerUpdate",
+        "eligibleForLedgerUpdate",
+        "updateAction",
         "reasonSkipped",
     ]
 
@@ -262,22 +331,13 @@ def write_audit_csv(rows, path):
 def build_corrected_ledger(row, ledger_records):
     salon_id = row["salonId"]
     starting_balance = to_decimal(row["startingBalance"])
-    ledger_record = ledger_records.get(salon_id)
 
-    if ledger_record and ledger_record["ledger"]:
-        ledger = ledger_record["ledger"].copy()
-        first_ledger_beginning, first_ledger_month = get_first_ledger_beginning(ledger)
+    ledger = ledger_records[salon_id]["ledger"].copy()
+    first_ledger_beginning, first_ledger_month = get_first_ledger_beginning(ledger)
 
-        ledger[first_ledger_month]["b"] = starting_balance
-        return ledger
+    ledger[first_ledger_month]["b"] = starting_balance
 
-    return {
-        "2026-01": {
-            "b": starting_balance,
-            "a": Decimal("0"),
-            "r": Decimal("0"),
-        }
-    }
+    return ledger
 
 
 def ledger_to_json(ledger):
@@ -296,7 +356,10 @@ def ledger_to_json(ledger):
 def write_ledger_update_xml(rows, ledger_records, path):
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    eligible_rows = [row for row in rows if row["eligibleForUpdate"] == "YES"]
+    eligible_rows = [
+        row for row in rows
+        if row["eligibleForLedgerUpdate"] == "YES"
+    ]
 
     root = ET.Element(
         "custom-objects",
@@ -346,7 +409,10 @@ def write_ledger_update_xml(rows, ledger_records, path):
 def write_customer_update_xml(rows, path):
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    eligible_rows = [row for row in rows if row["eligibleForUpdate"] == "YES"]
+    eligible_rows = [
+        row for row in rows
+        if row["eligibleForCustomerUpdate"] == "YES"
+    ]
 
     root = ET.Element(
         "customer-list",
@@ -407,15 +473,56 @@ def main():
     rows = build_audit_rows(beginning_balances, customer_balances, ledger_records)
     write_audit_csv(rows, OUTPUT_CSV_PATH)
 
-    eligible_count = sum(1 for row in rows if row["eligibleForUpdate"] == "YES")
+    customer_update_count = sum(
+        1 for row in rows if row["eligibleForCustomerUpdate"] == "YES"
+    )
+
+    ledger_update_count = sum(
+        1 for row in rows if row["eligibleForLedgerUpdate"] == "YES"
+    )
+
+    replace_balance_count = sum(
+        1 for row in rows if row["updateAction"] == "REPLACE_WITH_STARTING_BALANCE"
+    )
+
+    add_delta_count = sum(
+        1 for row in rows if row["updateAction"] == "ADD_MISSING_BEGINNING_BALANCE"
+    )
+
+    already_matches_count = sum(
+        1 for row in rows if row["updateAction"] == "SKIP_ALREADY_MATCHES_STARTING_BALANCE"
+    )
+
+    no_ledger_record_count = sum(
+        1 for row in rows if row["ledgerStatus"] == "NO_LEDGER_RECORD"
+    )
+
+    ledger_no_history_attribute_count = sum(
+        1 for row in rows if row["ledgerStatus"] == "LEDGER_RECORD_NO_HISTORY_ATTRIBUTE"
+    )
+
+    ledger_empty_history_count = sum(
+        1 for row in rows if row["ledgerStatus"] == "LEDGER_RECORD_EMPTY_HISTORY"
+    )
+
+    ledger_has_history_count = sum(
+        1 for row in rows if row["ledgerStatus"] == "LEDGER_HAS_HISTORY"
+    )
+
     missing_customer_count = sum(
         1 for row in rows if row["reasonSkipped"] == "Missing SR customer record"
     )
-    no_ledger_count = sum(1 for row in rows if row["ledgerExists"] == "NO")
 
-    print(f"Eligible rows: {eligible_count}")
+    print(f"Eligible customer update rows: {customer_update_count}")
+    print(f"Eligible ledger update rows: {ledger_update_count}")
+    print(f"Replace balance rows: {replace_balance_count}")
+    print(f"Add missing beginning balance rows: {add_delta_count}")
+    print(f"Already matches starting balance rows: {already_matches_count}")
+    print(f"No ledger record rows: {no_ledger_record_count}")
+    print(f"Ledger record no historyLedger attribute rows: {ledger_no_history_attribute_count}")
+    print(f"Ledger record empty historyLedger rows: {ledger_empty_history_count}")
+    print(f"Ledger has history rows: {ledger_has_history_count}")
     print(f"Missing SR customer records: {missing_customer_count}")
-    print(f"Rows with no ledger record: {no_ledger_count}")
     print(f"Audit complete. Wrote {len(rows)} rows to {OUTPUT_CSV_PATH}")
 
     if GENERATE_UPDATE_XML:
